@@ -1,0 +1,15 @@
+# Environment files with secrets — never commit these
+.env
+
+# Pi-hole runtime data
+stacks/pihole/etc-pihole/
+stacks/pihole/etc-dnsmasq.d/
+
+# Prometheus data
+stacks/monitoring/prometheus_data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
